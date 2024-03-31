@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body {
+  background-color: royalblue;
+}
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +39,12 @@
     transform: rotate(360deg);
   }
 }
+.bounce {
+  transition: all 0.2s ease-in-out;
+}
+.bounce:hover {
+  transform: translateY(-7px);
+  background-color: #fff;
+}
+
+
